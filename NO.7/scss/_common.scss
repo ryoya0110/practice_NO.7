@@ -1,0 +1,28 @@
+body {
+	color: $main_txt;
+}
+a {
+	color: $main_txt;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.container {
+	box-sizing: border-box;
+	max-width: 960px;
+	padding: 0 4%;
+	margin: 0 auto;
+}
+.section {
+	margin-bottom: 130px;
+}
+.section_ttl {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-bottom: 65px;
+}

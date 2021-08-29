@@ -1,0 +1,139 @@
+#header {
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 112px 4%;
+		.header {
+			&_logo {
+				width: 120px;
+				height: 36px;
+				line-height: 1;
+				a {
+					display: block;
+				}
+			}
+			&_list {
+				display: flex;
+				align-items: center;
+				li {
+					margin-right: 30px;
+					&:last-child {
+						margin-right: 0;
+					}
+					a {
+						font-size: .9rem;
+						transition: all .3s;
+						&:hover {
+							opacity: .7;
+						}
+						i {
+							font-size: 1.5rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#mainvisual {
+	margin-bottom: 86px;
+	img {
+		height: 420px;
+	}
+	.mv_sp {
+		display: none;
+	}
+}
+
+#about {
+	font-size: .9rem;
+	line-height: 1.4rem;
+	.about_p {
+		margin: 30px 0;
+	}
+}
+
+#works {
+	ul {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		li {
+			width: 31%;
+			margin-bottom: 25px;
+		}
+	}
+}
+
+#news {
+	dl {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		border-bottom: 1px solid $border;
+		font-size: .9rem;
+		dt {
+			width: 25%;
+			padding: 15px;
+			border-top: 1px solid $border;
+			box-sizing: border-box;
+		}
+		dd {
+			width: 75%;
+			padding: 15px;
+			border-top: 1px solid $border;
+			box-sizing: border-box;
+		}
+	}
+}
+
+#contact {
+	dl {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+		dt {
+			width: 20%;
+			margin-bottom: 10px;
+		}
+		dd {
+			width: 80%;
+			margin-bottom: 10px;
+			input,
+			textarea {
+				border: 1px solid $border;
+				padding: 15px;
+				width: 100%;
+				box-sizing: border-box;
+			}
+		}
+	}
+	.submit {
+		display: block;
+		margin: 0 auto;
+		padding: 15px 80px;
+		border: 1px solid $main_txt;
+		background: $main_txt;
+		color: $sub_txt;
+		cursor: pointer;
+		transition: all .3s;
+		&:hover {
+			background: $sub_txt;
+			color: $main_txt;
+		}
+	}
+}
+
+#footer {
+	text-align: center;
+	padding: 10px 0;
+	background: $main_txt;
+	p {
+		font-size: .5rem;
+		color: $sub_txt;
+	}
+}

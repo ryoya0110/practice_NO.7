@@ -1,0 +1,80 @@
+@media screen and (max-width: 600px) {
+	.section {
+		margin-bottom: 70px;
+	}
+	.section_ttl {
+		margin-bottom: 50px;
+	}
+
+	#header {
+		.container {
+			flex-flow: column;
+			padding: 20px 4%;
+			.header {
+				&_logo {
+					margin-bottom: 10px;
+				}
+				&_list {
+					li {
+						margin-right: 15px;
+						a {
+							font-size: .8rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#mainvisual {
+		.mv {
+			&_pc {
+				display: none;
+			}
+			&_sp {
+				display: block;
+				width: 100%;
+				box-sizing: border-box;
+			}
+		}
+	}
+
+	#works {
+		ul {
+			flex-flow: column;
+			li {
+				width: 100%;
+			}
+		}
+	}
+
+	#news {
+		dl {
+			flex-flow: column;
+			dt {
+				width: 100%;
+				padding: 15px 15px 10px;
+			}
+			dd {
+				width: 100%;
+				padding: 0 15px 15px;
+				border-top: none;
+				line-height: 1.1rem;
+			}
+		}
+	}
+
+	#contact {
+		dl {
+			flex-flow: column;
+			dt {
+				width: 100%;
+				margin-bottom: 5px;
+			}
+			dd {
+				width: 100%;
+			}
+		}
+	}
+}
+
